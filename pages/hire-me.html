@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire-me</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/hire-me.html">Hire Me!</a></li>
+        </nav>
+    </header>
+    <main style="margin: 0 auto; max-width: 900px; padding: 40px 20px;">
+        <h1 style="text-align: center; color: cornflowerblue;">Hire Me</h1>
+        <p style="text-align: center;">Fill out this form to hire one of us</p>
+        <form action="">
+            <section id="hrDetails">
+                <fieldset>
+                    <legend style="color: cornflowerblue; text-align: center; ">HR Details</legend>
+                    
+                    <br>
+
+                    <label for="companyName">Company Name</label><br>
+                    <input type="text" id="companyName" name="companyName" placeholder="Enter Your Company Name" style="width: 850px; padding: 8px;">
+
+                    <br><br>
+
+                    <label for="hrEmail">HR Email</label><br>
+                    <input type="email" id="hrEmail" name="hrEmail" placeholder="Enter Your Company Email" style="width: 850px; padding: 8px;">
+
+                    <br><br>
+
+                    <label for="hrNumber">HR Phone Number</label><br>
+                    <input type="tel" id="hrNumber" name="hrNumber" placeholder="Enter Your Work Phone Number" style="width: 850px; padding: 8px;">
+
+                    <br><br>
+                </fieldset>
+            </section>
+
+            <br>
+
+            <section id="hire">
+                <fieldset>
+                    <legend style="color: cornflowerblue; text-align: center; ">Who to Hire</legend>
+                    
+                    <br>
+
+                    <label for="name">Who to Hire</label><br>
+                    <select name="name" id="name" style="width: 870px; padding: 8px;">
+                        <option value="">-- Choose Name --</option>
+                        <option value="tommy">Tommy Poernomo</option>
+                        <option value="budi">Budi Arief</option>
+                        <option value="hilmi">Hilmi Salsabila</option>
+                        <option value="william">William Manuel</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="jobTitle">Job Title</label><br>
+                    <input type="text" id="jobTitle" name="jobTitle" placeholder="Enter Job Title" style="width: 850px; padding: 8px;">
+
+                    <br><br>
+
+                    <label for="jobType">Job Type :</label><br>
+                    <input type="radio" id="full-time" name="jobType" value="full-time">
+                    <label for="full-time">Full-Time</label>
+                    <input type="radio" id="part-time" name="jobType" value="Part-Time">
+                    <label for="part-time">Part-Time</label>
+
+                    <br><br>
+
+                    <label>Work Type:</label><br>
+                    <input type="checkbox" id="remote" name="mode" value="remote">
+                    <label for="remote">Remote</label>
+                    <input type="checkbox" id="onsite" name="mode" value="onsite">
+                    <label for="onsite">Onsite</label>
+
+                    <br><br>
+
+                    <label for="jobdesc">Job Description</label><br>
+                    <textarea name="jobdesc" id="jobdesc" cols="115" rows="10"></textarea>
+
+                    <br><br>
+
+                    <label for="salary" style="margin-top: 10px;">Salary Offer (Million Rupiah):</label><br>
+                    <input type="number" id="duration" name="duration" min="1" max="52" placeholder="e.g. 8" required="" style="padding: 8px; width: 850px;">
+                    <br><br>
+                </fieldset>
+            </section>
+
+            <br>
+
+            <section>
+                <fieldset>
+                    <legend style="color: cornflowerblue; text-align: center;">Interview Session</legend>
+
+                    <br>
+          
+                    <label for="interview-date" style="margin-top: 10px;">Interview Date:</label><br>
+                    <input type="date" id="interview-date" name="interview-date" required="" style="padding: 8px; width: 850px;">
+                    
+                    <br><br>
+          
+                    <label for="jobType">Interview Type :</label><br>
+                    <input type="radio" id="online" name="jobType" value="online">
+                    <label for="online">Online</label>
+                    <input type="radio" id="part-time" name="jobType" value="Part-Time">
+                    <label for="part-time">Onsite</label>
+                  </fieldset>
+            </section>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <button type="submit" style="background: cornflowerblue; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+                  Submit Hiring
+                </button>
+                <input type="reset" value="Reset Form" style="margin-left: 10px; background: #ddd; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            </div>
+        </form>
+    </main>
+    <footer style="background: black; color: white; text-align: center; padding: 20px;">
+        <a href="https://www.linkedin.com/in/" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/linkedin.png" height="24" width="24" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/amaierr/adv-HTML-group-10/" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/github.png" height="24" width="24" alt="GitHub">
+        </a>
+        <a href="https://instagram.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/instagram.png" height="24" width="24" alt="Instagram">
+        </a>
+        <h4 style="margin-top: 5px;">© 2025 Team 10 - William Manuel, Tommy Poernomo, Budi Arief, Hilmi Salsabilla</h4>
+    </footer>
+</body>
+</html>
