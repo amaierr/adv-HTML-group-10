@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hire-me</title>
+        <style>
+              .btn {
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 6px;
+        }
+
+        .btn-highlight {
+            background-color: #3498db;
+        }
+
+                .btn-top {
+            background-color: #16a085;
+        }
+    </style>
 </head>
 <body>
     <header style="background-color: cornflowerblue; color: #000; text-align: center; padding: 40px 20px;">
@@ -122,8 +141,11 @@
                   Submit Hiring
                 </button>
                 <input type="reset" value="Reset Form" style="margin-left: 10px; background: #ddd; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+                <button type="button" class="btn btn-highlight btn-top" onclick="window.scrollTo({top:0, behavior:'smooth'});" aria-label="Kembali ke atas halaman">Kembali ke Atas</button>
             </div>
+            
         </form>
+        
     </main>
     <footer style="background: black; color: white; text-align: center; padding: 20px;">
         <a href="https://www.linkedin.com/in/" target="_blank">
